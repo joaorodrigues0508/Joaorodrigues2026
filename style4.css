@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background: #3ca8c1;
+    font-family: 'DM Sans', sans-serif;
+}
+#menu{
+    width: 100%;
+    height: 60px;
+    background: #3ca8c1;
+    text-align: center;
+}
+#menu ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+#menu li{
+    display: block;
+    float: left;
+}
+#menu a{
+    float: left;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 60px;
+    height: 60px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+}
+#menu a:hover{
+    background: #007bff;
+}
+#menu i.left{
+    margin-right: 5px;
+}
+h1{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    color: #ffffff;
+}
+.pricipal{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+}
+#banner{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px auto;
+    width: 90%;
+}
+.texe{
+    flex: 1;
+    padding: 25px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.texd{
+    flex: 1;
+    padding: 25px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+h3{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 15px;
+    text-align: justify;
+}
+.ancora{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 0%;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    margin: 40px auto 20px auto;
+}
+h5{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    padding-bottom: 20px;
+}
